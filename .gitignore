@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django files
+db.sqlite3
+*.sqlite3
+media/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PyCharm specific
+*.iml
+
+# Migrations (optional: if you want to regenerate them on new setups)
+**/migrations/*
+
+# Static files
+staticfiles/
+static/
+
+# Secrets and environment files
+.env
+.env.*
+
+# Node modules (if using npm for frontend assets)
+node_modules/
+
+# Coverage and test reports
+htmlcov/
+.coverage
+*.cover
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.eggs
+*.manifest
+*.spec
